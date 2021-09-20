@@ -19,5 +19,12 @@ const Label = styled.label `
 const ContactsForm = styled.div`
     margin-top:10px;
 `
+const Button = styled.button`
+    background: #2F80ED;
+    border: none;
+    color: #fff;
+    padding: 1em;
+    border-radius: 5px;
+`
 
-export { InputText, Label, ContactsForm }
+export { InputText, Label, ContactsForm, Button }

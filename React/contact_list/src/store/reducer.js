@@ -1,3 +1,4 @@
+import { newPerson } from "./action"
 const initialState = [
     {
         id: 1,
@@ -25,7 +26,9 @@ const initialState = [
 ]
 
 export function reducer(state = initialState, action) {
-    switch(state){
+    switch(action.type){
+        case action.newPerson:
+            return[...person]
         default:
             return state
     }
